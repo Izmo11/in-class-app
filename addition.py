@@ -1,5 +1,5 @@
-import addition
-
-print("Using addition")
-x = add_two_numbers(1, 2)
-print("1 + 2 = " + x)
+def add_two_numbers(num1, num2):
+    """
+    Adds two numbers and returns the result.
+    """
+    return num1 + num2
