@@ -1,21 +1,24 @@
-import addition
-import subtraction
-import division
-import squareroot
-import multiplication
+from addition import add_two_numbers
+from subtraction import subtract_two_numbers
+from multiplication import multiply_two_numbers
+from squareroot import square_root
 
-print("Using addition")
+# Test addition
+print("Using addition:")
 x = add_two_numbers(1, 2)
-print("1 + 2 = " + x)
+print("1 + 2 = " + str(x))
 
+# Test subtraction
 print("Using subtraction:")
-x = subtraction.subtract_two_numbers(10, 5)
-print("10 - 5 = " + str(x))
+y = subtract_two_numbers(10, 5)
+print("10 - 5 = " + str(y))
 
+# Test multiplication
 print("Using multiplication:")
-y = multiplication.multiply_two_numbers(4, 3)
-print("4 * 3 = " + str(y))
+z = multiply_two_numbers(4, 3)
+print("4 * 3 = " + str(z))
 
+# Test square root
 print("Using square root:")
-z = squareroot.square_root(16)
-print("√16 = " + str(z))
+w = square_root(16)
+print("√16 = " + str(w))
